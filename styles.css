@@ -1,0 +1,79 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: fantasy;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: url(./images/diwali.jpg) no-repeat;
+    background-position: center;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 700px;
+    height: 750px;
+    perspective: 1200px;
+}
+
+.card {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 450px;
+    height: 600px;
+    color: #fff;
+    transform-style: preserve-3d;
+}
+
+.card .cardBg {
+    position: absolute;
+}
+
+.card .cardBg img {
+    z-index: 1;
+    width: 100%;
+    border-radius: 10px;
+}
+
+.card .title {
+    z-index: 2;
+    position: absolute;
+    top: 8px;
+    text-align: center;
+    line-height: 40px;
+    transition: all 0.3s ease-out;
+}
+
+.card .title h2 {
+    font-size: 35px;
+    text-transform: uppercase;
+}
+
+.card .title h1 {
+    font-size: 60px;
+    margin-top: 10px;
+    letter-spacing: 2px;
+}
+
+.card .images {
+    z-index: 2;
+    position: absolute;
+    top: 130px;
+    left: 40px;
+    transition: all 0.3s ease-out;
+
+}
+
+.card .images .shreeRam {
+    width: 380px;
+}
