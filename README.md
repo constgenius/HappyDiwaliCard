@@ -2,6 +2,8 @@
 
 🪔🎇 Happy Diwali to all! 🪔🎇 Celebrate the festival of lights with a special treat from us. In this tutorial, we're bringing you an incredible 3D card rotate effect on mouse movement using HTML, CSS, and JavaScript, all decked out in the spirit of Diwali. 🪔✨
 
+Youtube Tutorial Link: https://youtu.be/gli4vTwfVK8
+
 ![Happy Diwali Card](images/HappyDiwali.png)
 
 🔥 Get ready to be mesmerized by the magic of web development as we guide you through creating an awe-inspiring 3D card that reacts to your every move.
